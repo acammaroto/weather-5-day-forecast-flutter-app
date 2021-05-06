@@ -15,7 +15,7 @@ http.getDataFor(city: city).then((value) {
    ...
     }).catchError((error) {
      ...
-    });
+});
 ```
 
 If the API call status return 200 the data are passed to a builder in order to obtain the correct list model to create the view. 
